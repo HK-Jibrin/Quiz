@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div v-if="questions.length" class="quiz-modal">
+    <div v-if="questions.length" class="quiz-node">
       <router-link to="/">I AM NOT READY</router-link>
       <Progress :numTotal="numTotal" :numCorrect="numCorrect"></Progress>
       <div class="quiz">
@@ -152,7 +152,6 @@ export default {
   display: flex;
   flex-direction: column;
   width: 100%;
-  /* margin-left: 23%; */
 
 }
 .quiz .answers .answer {
@@ -166,7 +165,6 @@ export default {
 }
 .quiz .actions button {
   display: inline;
-  /* width: 100px; */
   color: #fff;
   border: none;
   padding: 15px;
