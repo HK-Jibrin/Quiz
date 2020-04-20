@@ -1,6 +1,10 @@
 <template>
   <div class="container">
+<<<<<<< HEAD
     <div v-if="questions.length" class="quiz-node">
+=======
+    <div v-if="questions.length" class="quiz-modal">
+>>>>>>> caf7dfd0fcac6688bb0e11b4debfe421138ec44e
       <router-link to="/">I AM NOT READY</router-link>
       <Progress :numTotal="numTotal" :numCorrect="numCorrect"></Progress>
       <div class="quiz">
@@ -151,7 +155,12 @@ export default {
 .quiz .answers {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   width: 100%;
+=======
+  width: 50%;
+  margin-left: 23%;
+>>>>>>> caf7dfd0fcac6688bb0e11b4debfe421138ec44e
 
 }
 .quiz .answers .answer {
@@ -165,6 +174,10 @@ export default {
 }
 .quiz .actions button {
   display: inline;
+<<<<<<< HEAD
+=======
+  /* width: 100px; */
+>>>>>>> caf7dfd0fcac6688bb0e11b4debfe421138ec44e
   color: #fff;
   border: none;
   padding: 15px;
@@ -176,7 +189,12 @@ export default {
 }
 #submit {
   background: #0caf22;
+<<<<<<< HEAD
   
+=======
+  margin-right: 49rem ;
+   width: 60em;
+>>>>>>> caf7dfd0fcac6688bb0e11b4debfe421138ec44e
 }
 #submit:disabled {
   background: #637af06c !important;
@@ -187,7 +205,12 @@ export default {
 }
 #next {
   background: #260ff5;
+<<<<<<< HEAD
    /* margin-left: 49rem; */
+=======
+   margin-left: 49rem;
+   width: 60em;
+>>>>>>> caf7dfd0fcac6688bb0e11b4debfe421138ec44e
 }
 #next:disabled {
   background: #1598264d !important;
@@ -196,6 +219,7 @@ export default {
 #next:hover {
   background: #159826d2;
 }
+<<<<<<< HEAD
 /* .selected {
   /* background: #d0e2dd; 
   border: 1px solid #d0e2dd;
@@ -206,6 +230,19 @@ export default {
 }
 .wrong {
   background: #f12a2a;
+=======
+.selected {
+  background: #d0e2dd;
+  border: 1px solid #d0e2dd;
+}
+.correct {
+  background: #acdfba;
+  border: 1px solid #acdfba;
+}
+.wrong {
+  background: #ee8787;
+  border: 1px solid #ee8787;
+>>>>>>> caf7dfd0fcac6688bb0e11b4debfe421138ec44e
   color: #fff;
 }
 @media (max-width: 600px) {
@@ -213,7 +250,11 @@ export default {
     justify-content: center;
   }
   #submit {
+<<<<<<< HEAD
     margin-right: 2rem;
+=======
+    margin-right: 10rem;
+>>>>>>> caf7dfd0fcac6688bb0e11b4debfe421138ec44e
   }
   .option{
     border: none;
