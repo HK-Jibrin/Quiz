@@ -1,6 +1,6 @@
 <template>
   <div class="quiz">
-    <div class="home-container">
+    <div class="container">
       <h2 class="ops">WELCOME TO CHARALITES QUIZ GAME</h2>
       <h3>I am a computer litrate? Try out this quiz</h3>
       <p>Select level</p>
@@ -14,21 +14,23 @@
 </template>
 
 <style scoped>
-.home-container {
+.container {
   padding: 20px;
    border: 1px solid black;
-   width: 50%;
-   margin-left: 20em;
+   width: 100%;
    height: 100%;
    border-radius: 20px;
    margin-top: 10em;
    background-color: brown;
 
 }
-.home-container p {
+.container p {
   margin-top: 20px;
   font-size: 1.1em;
   text-align: center;
+  color: white;
+}
+.container h3{
   color: white;
 }
 .buttons {
@@ -57,6 +59,7 @@
   color: white;
   font-style: italic;
 }
+
 
 
 </style>

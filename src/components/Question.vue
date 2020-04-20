@@ -151,8 +151,8 @@ export default {
 .quiz .answers {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin-left: 23%;
+  width: 100%;
+  /* margin-left: 23%; */
 
 }
 .quiz .answers .answer {
@@ -178,8 +178,7 @@ export default {
 }
 #submit {
   background: #0caf22;
-  margin-right: 49rem ;
-   width: 60em;
+  
 }
 #submit:disabled {
   background: #637af06c !important;
@@ -190,8 +189,7 @@ export default {
 }
 #next {
   background: #260ff5;
-   margin-left: 49rem;
-   width: 60em;
+   /* margin-left: 49rem; */
 }
 #next:disabled {
   background: #1598264d !important;
@@ -201,7 +199,7 @@ export default {
   background: #159826d2;
 }
 .selected {
-  background: #d0e2dd;
+  /* background: #d0e2dd; */
   border: 1px solid #d0e2dd;
 }
 .correct {
@@ -210,7 +208,7 @@ export default {
 }
 .wrong {
   background: #ee8787;
-  border: 1px solid #ee8787;
+  border: 1px solid yellow;
   color: #fff;
 }
 @media (max-width: 600px) {
@@ -218,7 +216,7 @@ export default {
     justify-content: center;
   }
   #submit {
-    margin-right: 10rem;
+    margin-right: 2rem;
   }
   .option{
     border: none;
