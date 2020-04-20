@@ -198,16 +198,16 @@ export default {
 #next:hover {
   background: #159826d2;
 }
-.selected {
-  /* background: #d0e2dd; */
+/* .selected {
+  /* background: #d0e2dd; 
   border: 1px solid #d0e2dd;
-}
+} */
 .correct {
-  background: #acdfba;
-  border: 1px solid #acdfba;
+  background: goldenrod;
+  border: 1px solid greenyellow;
 }
 .wrong {
-  background: #ee8787;
+  background: white;
   border: 1px solid yellow;
   color: #fff;
 }
