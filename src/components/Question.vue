@@ -203,12 +203,11 @@ export default {
   border: 1px solid #d0e2dd;
 } */
 .correct {
-  background: goldenrod;
-  border: 1px solid greenyellow;
+  background: rgb(32, 218, 72);
+
 }
 .wrong {
-  background: white;
-  border: 1px solid yellow;
+  background: #f12a2a;
   color: #fff;
 }
 @media (max-width: 600px) {
